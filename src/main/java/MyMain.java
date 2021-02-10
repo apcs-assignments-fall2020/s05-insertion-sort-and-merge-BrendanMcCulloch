@@ -28,17 +28,11 @@ public class MyMain {
             arr2[b] = oa[t];
             b++;
             t++;
-            if(arr2[b] > arr1[c]){
-                break;
-            }
         }
         while(arr2[b] > arr1[c]){
             arr1[c] = oa[t];
             c++;
             t++;
-            if(arr2[b] < arr1[c]){
-                break;
-            }
         }   
         return oa;        
      
